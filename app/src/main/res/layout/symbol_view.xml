@@ -105,7 +105,7 @@
                         android:layout_width="fill_parent"
                         android:layout_height="1dip" />
 
-                    <android.support.v4.view.ViewPager
+                    <androidx.viewpager.widget.ViewPager
                         android:id="@+id/symbol_input_candidate_view_pager"
                         android:layout_width="fill_parent"
                         android:layout_height="fill_parent"
@@ -124,7 +124,7 @@
                               android:minHeight="0dip"
                               android:minWidth="0dip" />
                         </FrameLayout>
-                    </android.support.v4.view.ViewPager>
+                    </androidx.viewpager.widget.ViewPager>
                 </LinearLayout>
             </TabHost>
 
