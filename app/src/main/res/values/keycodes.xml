@@ -158,4 +158,101 @@
   <integer name="uchar_vertical_line">124</integer>  <!-- | -->
   <integer name="uchar_right_curly_bracket">125</integer>  <!-- } -->
   <integer name="uchar_tilde">126</integer>  <!-- ~ -->
+
+  <integer name="uchar_hiragana_xa">0x3041</integer>
+  <integer name="uchar_hiragana_a">0x3042</integer>
+  <integer name="uchar_hiragana_xi">0x3043</integer>
+  <integer name="uchar_hiragana_i">0x3044</integer>
+  <integer name="uchar_hiragana_xu">0x3045</integer>
+  <integer name="uchar_hiragana_u">0x3046</integer>
+  <integer name="uchar_hiragana_xe">0x3047</integer>
+  <integer name="uchar_hiragana_e">0x3048</integer>
+  <integer name="uchar_hiragana_xo">0x3049</integer>
+  <integer name="uchar_hiragana_o">0x304a</integer>
+
+  <integer name="uchar_hiragana_ka">0x304b</integer>
+  <integer name="uchar_hiragana_ga">0x304c</integer>
+  <integer name="uchar_hiragana_ki">0x304d</integer>
+  <integer name="uchar_hiragana_gi">0x304e</integer>
+  <integer name="uchar_hiragana_ku">0x304f</integer>
+  <integer name="uchar_hiragana_gu">0x3050</integer>
+  <integer name="uchar_hiragana_ke">0x3051</integer>
+  <integer name="uchar_hiragana_ge">0x3052</integer>
+  <integer name="uchar_hiragana_ko">0x3053</integer>
+  <integer name="uchar_hiragana_go">0x3054</integer>
+
+  <integer name="uchar_hiragana_sa">0x3055</integer>
+  <integer name="uchar_hiragana_za">0x3056</integer>
+  <integer name="uchar_hiragana_si">0x3057</integer>
+  <integer name="uchar_hiragana_zi">0x3058</integer>
+  <integer name="uchar_hiragana_su">0x3059</integer>
+  <integer name="uchar_hiragana_zu">0x305a</integer>
+  <integer name="uchar_hiragana_se">0x305b</integer>
+  <integer name="uchar_hiragana_ze">0x305c</integer>
+  <integer name="uchar_hiragana_so">0x305d</integer>
+  <integer name="uchar_hiragana_zo">0x305e</integer>
+
+  <integer name="uchar_hiragana_ta">0x305f</integer>
+  <integer name="uchar_hiragana_da">0x3060</integer>
+  <integer name="uchar_hiragana_ti">0x3061</integer>
+  <integer name="uchar_hiragana_di">0x3062</integer>
+  <integer name="uchar_hiragana_xtu">0x3063</integer>
+  <integer name="uchar_hiragana_tu">0x3064</integer>
+  <integer name="uchar_hiragana_du">0x3065</integer>
+  <integer name="uchar_hiragana_te">0x3066</integer>
+  <integer name="uchar_hiragana_de">0x3067</integer>
+  <integer name="uchar_hiragana_to">0x3068</integer>
+  <integer name="uchar_hiragana_do">0x3069</integer>
+
+  <integer name="uchar_hiragana_na">0x306a</integer>
+  <integer name="uchar_hiragana_ni">0x306b</integer>
+  <integer name="uchar_hiragana_nu">0x306c</integer>
+  <integer name="uchar_hiragana_ne">0x306d</integer>
+  <integer name="uchar_hiragana_no">0x306e</integer>
+
+  <integer name="uchar_hiragana_ha">0x306f</integer>
+  <integer name="uchar_hiragana_ba">0x3070</integer>
+  <integer name="uchar_hiragana_pa">0x3071</integer>
+  <integer name="uchar_hiragana_hi">0x3072</integer>
+  <integer name="uchar_hiragana_bi">0x3073</integer>
+  <integer name="uchar_hiragana_pi">0x3074</integer>
+  <integer name="uchar_hiragana_hu">0x3075</integer>
+  <integer name="uchar_hiragana_bu">0x3076</integer>
+  <integer name="uchar_hiragana_pu">0x3077</integer>
+  <integer name="uchar_hiragana_he">0x3078</integer>
+  <integer name="uchar_hiragana_be">0x3079</integer>
+  <integer name="uchar_hiragana_pe">0x307a</integer>
+  <integer name="uchar_hiragana_ho">0x307b</integer>
+  <integer name="uchar_hiragana_bo">0x307c</integer>
+  <integer name="uchar_hiragana_po">0x307d</integer>
+
+  <integer name="uchar_hiragana_ma">0x307e</integer>
+  <integer name="uchar_hiragana_mi">0x307f</integer>
+  <integer name="uchar_hiragana_mu">0x3080</integer>
+  <integer name="uchar_hiragana_me">0x3081</integer>
+  <integer name="uchar_hiragana_mo">0x3082</integer>
+
+  <integer name="uchar_hiragana_xya">0x3083</integer>
+  <integer name="uchar_hiragana_ya">0x3084</integer>
+  <integer name="uchar_hiragana_xyu">0x3085</integer>
+  <integer name="uchar_hiragana_yu">0x3086</integer>
+  <integer name="uchar_hiragana_xyo">0x3087</integer>
+  <integer name="uchar_hiragana_yo">0x3088</integer>
+
+  <integer name="uchar_hiragana_ra">0x3089</integer>
+  <integer name="uchar_hiragana_ri">0x308a</integer>
+  <integer name="uchar_hiragana_ru">0x308b</integer>
+  <integer name="uchar_hiragana_re">0x308c</integer>
+  <integer name="uchar_hiragana_ro">0x308d</integer>
+
+  <integer name="uchar_hiragana_xwa">0x308e</integer>
+  <integer name="uchar_hiragana_wa">0x308f</integer>
+  <integer name="uchar_hiragana_wi">0x3090</integer>
+  <integer name="uchar_hiragana_we">0x3091</integer>
+  <integer name="uchar_hiragana_wo">0x3092</integer>
+
+  <integer name="uchar_hiragana_nn">0x3093</integer>
+
+  <integer name="uchar_hiragana_voiced_sound_mark">0x309b</integer>
+  <integer name="uchar_hiragana_semi_voiced_sound_mark">0x309c</integer>
 </resources>

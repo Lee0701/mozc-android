@@ -140,6 +140,17 @@ public class Keyboard {
         false,
         CrossingEdgeBehavior.DO_NOTHING),
 
+    // QWERTY keyboard.
+    QWERTY_KANA_JIS(
+            new KeyboardSpecificationName("QWERTY_KANA_JIS", 0, 1, 0),
+            R.xml.kbd_qwerty_jis_kana,
+            false,
+            CompositionMode.HIRAGANA,
+            SpecialRomanjiTable.DEFAULT_TABLE,
+            SpaceOnAlphanumeric.SPACE_OR_CONVERT_KEEPING_COMPOSITION,
+            false,
+            CrossingEdgeBehavior.DO_NOTHING),
+
     QWERTY_ALPHABET(
         new KeyboardSpecificationName("QWERTY_ALPHABET", 0, 5, 0),
         R.xml.kbd_qwerty_abc,

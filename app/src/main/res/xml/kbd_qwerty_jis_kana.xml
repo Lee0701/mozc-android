@@ -1,0 +1,946 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ Copyright 2010-2018, Google Inc.
+ All rights reserved.
+
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are
+ met:
+
+     * Redistributions of source code must retain the above copyright
+ notice, this list of conditions and the following disclaimer.
+     * Redistributions in binary form must reproduce the above
+ copyright notice, this list of conditions and the following disclaimer
+ in the documentation and/or other materials provided with the
+ distribution.
+     * Neither the name of Google Inc. nor the names of its
+ contributors may be used to endorse or promote products derived from
+ this software without specific prior written permission.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS
+ "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT
+ LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR
+ A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT
+ OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+ SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT
+ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE,
+ DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY
+ THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+ (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+ OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+-->
+<Keyboard
+    xmlns:mozc="http://schemas.android.com/apk/res-auto"
+    mozc:keyboardContentDescription="@string/cd_keyboard_kana"
+    mozc:keyBackground="qwertyRegular"
+    mozc:keyWidth="10%p" mozc:keyHeight="18%p"
+    mozc:horizontalGap="0.3%p" mozc:verticalGap="2%p"
+    mozc:popUpHeight="@dimen/key_preview_height"
+    mozc:popUpIconHeight="@dimen/key_preview_qwerty_icon_height"
+    mozc:popUpXOffset="0dip" mozc:popUpYOffset="@dimen/mini_keyboard_vertical_correction"
+    mozc:defaultIconWidth="@dimen/unlimited"
+    mozc:defaultIconHeight="@dimen/keyboard_qwerty_default_height"
+    mozc:defaultHorizontalPadding="@fraction/keyboard_qwerty_default_horizontal_padding"
+    mozc:defaultVerticalPadding="@fraction/keyboard_qwerty_default_vertical_padding">
+  <Row mozc:rowEdgeFlags="top">
+    <Key mozc:keyEdgeFlags="left">
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="1"
+              mozc:keyCode="@integer/uchar_hiragana_nu"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__nu">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__nu" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="2"
+              mozc:keyCode="@integer/uchar_hiragana_hu"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__fu">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__fu" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="3"
+              mozc:keyCode="@integer/uchar_hiragana_a"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__a">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__a" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState
+          mozc:metaState="shift">
+        <Flick>
+          <KeyEntity mozc:sourceId="103"
+              mozc:keyCode="@integer/uchar_hiragana_xa"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__a">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__a" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="4"
+              mozc:keyCode="@integer/uchar_hiragana_u"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__u">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__u" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState
+          mozc:metaState="shift">
+        <Flick>
+          <KeyEntity mozc:sourceId="104"
+              mozc:keyCode="@integer/uchar_hiragana_xu"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__u">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__u" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="5"
+              mozc:keyCode="@integer/uchar_hiragana_e"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__e">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__e" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState
+          mozc:metaState="shift">
+        <Flick>
+          <KeyEntity mozc:sourceId="105"
+              mozc:keyCode="@integer/uchar_hiragana_xe"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__xe">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__xe" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="6"
+              mozc:keyCode="@integer/uchar_hiragana_o"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__o">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__o" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState
+          mozc:metaState="shift">
+        <Flick>
+          <KeyEntity mozc:sourceId="106"
+              mozc:keyCode="@integer/uchar_hiragana_xo"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__o">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__o" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="7"
+              mozc:keyCode="@integer/uchar_hiragana_ya"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ya">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ya" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState
+          mozc:metaState="shift">
+        <Flick>
+          <KeyEntity mozc:sourceId="107"
+              mozc:keyCode="@integer/uchar_hiragana_xya"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__xya">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__xya" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="8"
+              mozc:keyCode="@integer/uchar_hiragana_yu"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__yu">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__yu" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState
+          mozc:metaState="shift">
+        <Flick>
+          <KeyEntity mozc:sourceId="108"
+              mozc:keyCode="@integer/uchar_hiragana_xyu"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__xyu">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__xyu" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="9"
+              mozc:keyCode="@integer/uchar_hiragana_yo"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__yo">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__yo" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState
+          mozc:metaState="shift">
+        <Flick>
+          <KeyEntity mozc:sourceId="109"
+              mozc:keyCode="@integer/uchar_hiragana_xyo"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__xyo">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__xyo" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key mozc:keyEdgeFlags="right">
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="100"
+              mozc:keyCode="@integer/uchar_hiragana_wa"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__wa">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__wa" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState
+          mozc:metaState="shift">
+        <Flick>
+          <KeyEntity mozc:sourceId="120"
+              mozc:keyCode="@integer/uchar_hiragana_wo"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__wo">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__wo" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+  </Row>
+  <Row>
+    <Key mozc:keyEdgeFlags="left">
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="11"
+              mozc:keyCode="@integer/uchar_hiragana_ta"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ta">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ta" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="12"
+              mozc:keyCode="@integer/uchar_hiragana_te"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__te">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__te" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="13"
+              mozc:keyCode="@integer/uchar_hiragana_i"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__i">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__i" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState
+          mozc:metaState="shift">
+        <Flick>
+          <KeyEntity mozc:sourceId="113"
+              mozc:keyCode="@integer/uchar_hiragana_xi"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__xi">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__xi" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="14"
+              mozc:keyCode="@integer/uchar_hiragana_su"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__su">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__su" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="15"
+              mozc:keyCode="@integer/uchar_hiragana_ka"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ka">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ka" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="16"
+              mozc:keyCode="@integer/uchar_hiragana_nn"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__nn">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__nn" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="17"
+              mozc:keyCode="@integer/uchar_hiragana_na"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__na">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__na" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="18"
+              mozc:keyCode="@integer/uchar_hiragana_ni"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ni">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ni" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="19"
+              mozc:keyCode="@integer/uchar_hiragana_ra"
+              mozc:longPressKeyCode="@integer/uchar_hiragana_voiced_sound_mark"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ra">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ra"
+                mozc:popUpLongPressIcon="@raw/twelvekeys__kana__popup__voiced_mark" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key mozc:keyEdgeFlags="right">
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="20"
+              mozc:keyCode="@integer/uchar_hiragana_se"
+              mozc:longPressKeyCode="@integer/uchar_hiragana_semi_voiced_sound_mark"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__se">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__se"
+                mozc:popUpLongPressIcon="@raw/twelvekeys__kana__popup__semi_voiced_mark" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+  </Row>
+  <Row>
+    <Key mozc:keyEdgeFlags="left">
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="21"
+              mozc:keyCode="@integer/uchar_hiragana_ti"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__chi">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__chi" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="22"
+              mozc:keyCode="@integer/uchar_hiragana_to"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__to">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__to" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="23"
+              mozc:keyCode="@integer/uchar_hiragana_si"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__shi">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__shi" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="24"
+              mozc:keyCode="@integer/uchar_hiragana_ha"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ha">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ha" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="25"
+              mozc:keyCode="@integer/uchar_hiragana_ki"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ki">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ki" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="26"
+              mozc:keyCode="@integer/uchar_hiragana_ku"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ku">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ku" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="27"
+              mozc:keyCode="@integer/uchar_hiragana_ma"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ma">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ma" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="28"
+              mozc:keyCode="@integer/uchar_hiragana_no"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__no">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__no" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="29"
+              mozc:keyCode="@integer/uchar_hiragana_ri"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ri">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ri" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key mozc:keyEdgeFlags="right">
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="30"
+              mozc:keyCode="@integer/uchar_hiragana_re"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__re">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__re" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+  </Row>
+  <Row>
+    <Key mozc:keyBackground="qwertyFunction"
+        mozc:keyWidth="8%p" mozc:keyEdgeFlags="left" mozc:isModifier="true"
+        mozc:defaultIconWidth="@dimen/unlimited"
+        mozc:defaultIconHeight="@dimen/default_function_icon_height">
+      <KeyState mozc:contentDescription="@string/cd_key_shift"
+          mozc:nextMetaState="shift">
+        <Flick>
+          <KeyEntity mozc:sourceId="41"
+              mozc:keyCode="@integer/key_capslock"
+              mozc:keyIcon="@raw/qwerty__shift_off" />
+        </Flick>
+      </KeyState>
+      <KeyState mozc:contentDescription="@string/cd_key_capslock"
+          mozc:metaState="shift" mozc:nextRemovedMetaStates="shift">
+        <Flick>
+          <KeyEntity mozc:sourceId="141"
+              mozc:keyCode="@integer/key_capslock"
+              mozc:keyIcon="@raw/qwerty__shift_on" />
+        </Flick>
+      </KeyState>
+    </Key>
+    <Spacer mozc:keyWidth="2%" mozc:stick="right" mozc:keyBackground="transparent" />
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="52"
+              mozc:keyCode="@integer/uchar_hiragana_tu"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__tsu">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__tsu" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState
+          mozc:metaState="shift">
+        <Flick>
+          <KeyEntity mozc:sourceId="152"
+              mozc:keyCode="@integer/uchar_hiragana_xtu"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__tsu">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__tsu" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="53"
+              mozc:keyCode="@integer/uchar_hiragana_sa"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__sa">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__sa" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="54"
+              mozc:keyCode="@integer/uchar_hiragana_so"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__so">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__so" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="55"
+              mozc:keyCode="@integer/uchar_hiragana_hi"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__hi">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__hi" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="56"
+              mozc:keyCode="@integer/uchar_hiragana_ko"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ko">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ko" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="57"
+              mozc:keyCode="@integer/uchar_hiragana_mi"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__mi">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__mi" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="58"
+              mozc:keyCode="@integer/uchar_hiragana_mo"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__mo">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__mo" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="59"
+              mozc:keyCode="@integer/uchar_hiragana_ke"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ke">
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Spacer mozc:keyWidth="2%" mozc:stick="left" mozc:keyBackground="transparent" />
+    <Key mozc:keyBackground="qwertyFunction"
+         mozc:keyWidth="8%p" mozc:keyEdgeFlags="right" mozc:isRepeatable="true">
+      <KeyState mozc:contentDescription="@string/cd_key_uchar_backspace">
+        <Flick>
+          <KeyEntity mozc:sourceId="50"
+                     mozc:keyCode="@integer/key_backspace"
+                     mozc:keyIcon="@raw/qwerty__function__delete__icon"
+                     mozc:iconWidth="@dimen/unlimited"
+                     mozc:iconHeight="@dimen/default_function_icon_height" />
+        </Flick>
+      </KeyState>
+    </Key>
+  </Row>
+  <Row>
+    <Key mozc:keyBackground="qwertyFunctionWithThreeDots"
+         mozc:keyWidth="8%p" mozc:keyEdgeFlags="left">
+      <KeyState mozc:contentDescription="@string/cd_key_chartype_to_abc">
+        <Flick>
+          <KeyEntity mozc:sourceId="201"
+                     mozc:keyCode="@integer/key_chartype_to_abc"
+                     mozc:longPressKeyCode="@integer/key_menu_dialog"
+                     mozc:keyIcon="@raw/qwerty__function__kana__icon"
+                     mozc:iconWidth="@dimen/unlimited"
+                     mozc:iconHeight="@dimen/default_function_icon_height" />
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key
+        mozc:keyHorizontalLayoutWeight="1">
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="202"
+              mozc:keyCode="@integer/uchar_hiragana_voiced_sound_mark"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__popup__voiced_mark">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__popup__voiced_mark" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState
+          mozc:metaState="shift">
+        <Flick>
+          <KeyEntity mozc:sourceId="212"
+              mozc:keyCode="@integer/uchar_hiragana_ro"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ro">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ro" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key
+        mozc:keyHorizontalLayoutWeight="1">
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="203"
+              mozc:keyCode="@integer/uchar_hiragana_semi_voiced_sound_mark"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__popup__semi_voiced_mark">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__popup__semi_voiced_mark" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState
+          mozc:metaState="shift">
+        <Flick>
+          <KeyEntity mozc:sourceId="213"
+              mozc:keyCode="@integer/uchar_hiragana_mu"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__mu">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__mu" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key mozc:keyBackground="qwertyFunction"
+         mozc:keyWidth="10%p">
+      <KeyState mozc:contentDescription="@string/cd_key_symbol" mozc:metaState="fallback|composing">
+        <Flick>
+          <KeyEntity mozc:sourceId="204"
+                     mozc:keyCode="@integer/uchar_full_stop"
+                     mozc:longPressKeyCode="@integer/uchar_comma"
+                     mozc:longPressTimeoutTrigger="false"
+                     mozc:keyIcon="@raw/qwerty__function__ideographic_full_stop">
+            <PopUp mozc:popUpIcon="@raw/qwerty__function__ideographic_full_stop"
+                   mozc:popUpLongPressIcon="@raw/qwerty__function__ideographic_comma" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState mozc:contentDescription="@string/cd_key_globe" mozc:metaState="globe" >
+        <Flick>
+          <KeyEntity mozc:sourceId="214"
+                     mozc:keyCode="@integer/key_globe"
+                     mozc:keyIcon="@raw/globe_qwerty_function"
+                     mozc:iconWidth="@dimen/unlimited"
+                     mozc:iconHeight="@dimen/default_function_icon_height"
+                     mozc:longPressKeyCode="@integer/key_ime_picker_dialog" />
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key mozc:keyBackground="qwertyFunctionSpaceWithThreeDots"
+         mozc:keyWidth="21%p">
+      <KeyState mozc:contentDescription="@string/cd_key_uchar_space">
+        <Flick>
+          <KeyEntity mozc:sourceId="205"
+                     mozc:keyCode="@integer/uchar_space"
+                     mozc:longPressKeyCode="@integer/key_ime_picker_dialog"
+                     mozc:keyIcon="@raw/qwerty__function__space__icon"
+                     mozc:iconWidth="@dimen/unlimited"
+                     mozc:iconHeight="@dimen/keyboard_qwerty_space_height" />
+        </Flick>
+      </KeyState>
+      <KeyState mozc:contentDescription="@string/cd_key_uchar_space" mozc:metaState="no_globe">
+        <Flick>
+          <KeyEntity mozc:sourceId="216"
+                     mozc:keyCode="@integer/uchar_space"
+                     mozc:longPressKeyCode="@integer/key_ime_picker_dialog"
+                     mozc:keyIcon="@null"
+                     mozc:iconWidth="@dimen/unlimited"
+                     mozc:iconHeight="@dimen/keyboard_qwerty_space_height" />
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="207"
+              mozc:keyCode="@integer/uchar_hiragana_ne"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ne">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ne" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState
+          mozc:metaState="shift">
+        <Flick>
+          <KeyEntity mozc:sourceId="217"
+              mozc:keyCode="@integer/uchar_hiragana_ho"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ho">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ho" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="208"
+              mozc:keyCode="@integer/uchar_hiragana_ru"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ru">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ru" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState
+          mozc:metaState="shift">
+        <Flick>
+          <KeyEntity mozc:sourceId="218"
+              mozc:keyCode="@integer/uchar_hiragana_he"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__he">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__he" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="209"
+              mozc:keyCode="@integer/uchar_hiragana_me"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__me">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__me" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState
+          mozc:metaState="shift">
+        <Flick>
+          <KeyEntity mozc:sourceId="219"
+              mozc:keyCode="@integer/uchar_hyphen_minus"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/optional__qwerty__keyicon__minus_sign">
+            <PopUp mozc:popUpIcon="@raw/optional__qwerty__keyicon__minus_sign" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key mozc:keyBackground="qwertyFunctionWithThreeDots"
+         mozc:keyWidth="13%p" mozc:keyEdgeFlags="right"
+         mozc:defaultIconWidth="@dimen/keyboard_enter_width"
+         mozc:defaultIconHeight="@dimen/unlimited">
+      <KeyState mozc:contentDescription="@string/cd_key_uchar_linefeed">
+        <Flick>
+          <KeyEntity mozc:sourceId="250"
+                     mozc:keyCode="@integer/uchar_linefeed"
+                     mozc:longPressKeyCode="@integer/key_symbol_emoji"
+                     mozc:longPressTimeoutTrigger="false"
+                     mozc:keyIcon="@raw/function__enter__icon">
+            <PopUp mozc:popUpLongPressIcon="@raw/function__symbol__popup"
+                   mozc:popUpIconHeight="@dimen/key_preview_emoji_icon_height" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState mozc:contentDescription="@string/cd_key_composing_done"
+                mozc:metaState="composing">
+        <Flick>
+          <KeyEntity mozc:sourceId="251"
+                     mozc:keyCode="@integer/uchar_linefeed"
+                     mozc:longPressKeyCode="@integer/key_symbol_emoji"
+                     mozc:longPressTimeoutTrigger="false"
+                     mozc:keyIcon="@raw/function__enter__icon">
+            <PopUp mozc:popUpLongPressIcon="@raw/function__symbol__popup"
+                   mozc:popUpIconHeight="@dimen/key_preview_emoji_icon_height" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState mozc:contentDescription="@string/cd_key_action_done"
+                mozc:metaState="action_done">
+        <Flick>
+          <KeyEntity mozc:sourceId="252"
+                     mozc:keyCode="@integer/uchar_linefeed"
+                     mozc:longPressKeyCode="@integer/key_symbol_emoji"
+                     mozc:longPressTimeoutTrigger="false"
+                     mozc:keyIcon="@raw/function__action_done__icon">
+            <PopUp mozc:popUpLongPressIcon="@raw/function__symbol__popup"
+                   mozc:popUpIconHeight="@dimen/key_preview_emoji_icon_height" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState mozc:contentDescription="@string/cd_key_action_go"
+                mozc:metaState="action_go">
+        <Flick>
+          <KeyEntity mozc:sourceId="253"
+                     mozc:keyCode="@integer/uchar_linefeed"
+                     mozc:longPressKeyCode="@integer/key_symbol_emoji"
+                     mozc:longPressTimeoutTrigger="false"
+                     mozc:keyIcon="@raw/function__action_go__icon">
+            <PopUp mozc:popUpLongPressIcon="@raw/function__symbol__popup"
+                   mozc:popUpIconHeight="@dimen/key_preview_emoji_icon_height" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState mozc:contentDescription="@string/cd_key_action_next"
+                mozc:metaState="action_next">
+        <Flick>
+          <KeyEntity mozc:sourceId="254"
+                     mozc:keyCode="@integer/uchar_linefeed"
+                     mozc:longPressKeyCode="@integer/key_symbol_emoji"
+                     mozc:longPressTimeoutTrigger="false"
+                     mozc:keyIcon="@raw/function__action_next__icon">
+            <PopUp mozc:popUpLongPressIcon="@raw/function__symbol__popup"
+                   mozc:popUpIconHeight="@dimen/key_preview_emoji_icon_height" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState mozc:contentDescription="@string/cd_key_action_previous"
+                mozc:metaState="action_previous">
+        <Flick>
+          <KeyEntity mozc:sourceId="255"
+                     mozc:keyCode="@integer/uchar_linefeed"
+                     mozc:longPressKeyCode="@integer/key_symbol_emoji"
+                     mozc:longPressTimeoutTrigger="false"
+                     mozc:keyIcon="@raw/function__action_previous__icon">
+            <PopUp mozc:popUpLongPressIcon="@raw/function__symbol__popup"
+                   mozc:popUpIconHeight="@dimen/key_preview_emoji_icon_height" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState mozc:contentDescription="@string/cd_key_action_search"
+                mozc:metaState="action_search">
+        <Flick>
+          <KeyEntity mozc:sourceId="256"
+                     mozc:keyCode="@integer/uchar_linefeed"
+                     mozc:longPressKeyCode="@integer/key_symbol_emoji"
+                     mozc:longPressTimeoutTrigger="false"
+                     mozc:keyIcon="@raw/function__action_search__icon">
+            <PopUp mozc:popUpLongPressIcon="@raw/function__symbol__popup"
+                   mozc:popUpIconHeight="@dimen/key_preview_emoji_icon_height" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState mozc:contentDescription="@string/cd_key_action_send"
+                mozc:metaState="action_send">
+        <Flick>
+          <KeyEntity mozc:sourceId="257"
+                     mozc:keyCode="@integer/uchar_linefeed"
+                     mozc:longPressKeyCode="@integer/key_symbol_emoji"
+                     mozc:longPressTimeoutTrigger="false"
+                     mozc:keyIcon="@raw/function__action_send__icon">
+            <PopUp mozc:popUpLongPressIcon="@raw/function__symbol__popup"
+                   mozc:popUpIconHeight="@dimen/key_preview_emoji_icon_height" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+  </Row>
+  <!-- Next sourceId: 62 -->
+</Keyboard>
