@@ -33,7 +33,7 @@
     xmlns:mozc="http://schemas.android.com/apk/res-auto"
     mozc:keyboardContentDescription="@string/cd_keyboard_kana"
     mozc:keyBackground="qwertyRegular"
-    mozc:keyWidth="10%p" mozc:keyHeight="18%p"
+    mozc:keyWidth="9.09%p" mozc:keyHeight="18%p"
     mozc:horizontalGap="0.3%p" mozc:verticalGap="2%p"
     mozc:popUpHeight="@dimen/key_preview_height"
     mozc:popUpIconHeight="@dimen/key_preview_qwerty_icon_height"
@@ -251,6 +251,29 @@
         </Flick>
       </KeyState>
     </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="110"
+              mozc:keyCode="@integer/uchar_hiragana_ho"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__ho">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__ho" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState
+          mozc:metaState="shift">
+        <Flick>
+          <KeyEntity mozc:sourceId="111"
+              mozc:keyCode="@integer/uchar_hiragana_he"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__he">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__he" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
   </Row>
   <Row>
     <Key mozc:keyEdgeFlags="left">
@@ -365,11 +388,9 @@
         <Flick>
           <KeyEntity mozc:sourceId="19"
               mozc:keyCode="@integer/uchar_hiragana_ra"
-              mozc:longPressKeyCode="@integer/uchar_hiragana_voiced_sound_mark"
               mozc:longPressTimeoutTrigger="false"
               mozc:keyIcon="@raw/qwerty__kana__keyicon__ra">
-            <PopUp mozc:popUpIcon="@raw/qwerty__popup__ra"
-                mozc:popUpLongPressIcon="@raw/twelvekeys__kana__popup__voiced_mark" />
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__ra" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -379,11 +400,34 @@
         <Flick>
           <KeyEntity mozc:sourceId="20"
               mozc:keyCode="@integer/uchar_hiragana_se"
-              mozc:longPressKeyCode="@integer/uchar_hiragana_semi_voiced_sound_mark"
               mozc:longPressTimeoutTrigger="false"
               mozc:keyIcon="@raw/qwerty__kana__keyicon__se">
-            <PopUp mozc:popUpIcon="@raw/qwerty__popup__se"
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__se" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="202"
+              mozc:keyCode="@integer/uchar_hiragana_voiced_sound_mark"
+              mozc:longPressKeyCode="@integer/uchar_hiragana_semi_voiced_sound_mark"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__popup__voiced_mark">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__popup__voiced_mark"
                 mozc:popUpLongPressIcon="@raw/twelvekeys__kana__popup__semi_voiced_mark" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState
+          mozc:metaState="shift">
+        <Flick>
+          <KeyEntity mozc:sourceId="203"
+              mozc:keyCode="@integer/uchar_hiragana_semi_voiced_sound_mark"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/twelvekeys__kana__popup__semi_voiced_mark">
+            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__popup__semi_voiced_mark" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -510,30 +554,19 @@
         </Flick>
       </KeyState>
     </Key>
-  </Row>
-  <Row>
-    <Key mozc:keyBackground="qwertyFunction"
-        mozc:keyWidth="8%p" mozc:keyEdgeFlags="left" mozc:isModifier="true"
-        mozc:defaultIconWidth="@dimen/unlimited"
-        mozc:defaultIconHeight="@dimen/default_function_icon_height">
-      <KeyState mozc:contentDescription="@string/cd_key_shift"
-          mozc:nextMetaState="shift">
+    <Key>
+      <KeyState>
         <Flick>
-          <KeyEntity mozc:sourceId="41"
-              mozc:keyCode="@integer/key_capslock"
-              mozc:keyIcon="@raw/qwerty__shift_off" />
-        </Flick>
-      </KeyState>
-      <KeyState mozc:contentDescription="@string/cd_key_capslock"
-          mozc:metaState="shift" mozc:nextRemovedMetaStates="shift">
-        <Flick>
-          <KeyEntity mozc:sourceId="141"
-              mozc:keyCode="@integer/key_capslock"
-              mozc:keyIcon="@raw/qwerty__shift_on" />
+          <KeyEntity mozc:sourceId="59"
+              mozc:keyCode="@integer/uchar_hiragana_ke"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__ke">
+          </KeyEntity>
         </Flick>
       </KeyState>
     </Key>
-    <Spacer mozc:keyWidth="2%" mozc:stick="right" mozc:keyBackground="transparent" />
+  </Row>
+  <Row>
     <Key>
       <KeyState>
         <Flick>
@@ -632,24 +665,70 @@
     <Key>
       <KeyState>
         <Flick>
-          <KeyEntity mozc:sourceId="59"
-              mozc:keyCode="@integer/uchar_hiragana_ke"
+          <KeyEntity mozc:sourceId="207"
+              mozc:keyCode="@integer/uchar_hiragana_ne"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/qwerty__kana__keyicon__ke">
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__ne">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__ne" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState
+          mozc:metaState="shift">
+        <Flick>
+          <KeyEntity mozc:sourceId="217"
+              mozc:keyCode="@integer/uchar_comma"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/qwerty__function__ideographic_comma">
+            <PopUp mozc:popUpIcon="@raw/qwerty__function__ideographic_comma" />
           </KeyEntity>
         </Flick>
       </KeyState>
     </Key>
-    <Spacer mozc:keyWidth="2%" mozc:stick="left" mozc:keyBackground="transparent" />
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="208"
+              mozc:keyCode="@integer/uchar_hiragana_ru"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__ru">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__ru" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+      <KeyState
+          mozc:metaState="shift">
+        <Flick>
+          <KeyEntity mozc:sourceId="218"
+              mozc:keyCode="@integer/uchar_full_stop"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/qwerty__function__ideographic_full_stop">
+            <PopUp mozc:popUpIcon="@raw/qwerty__function__ideographic_full_stop" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
+    <Key>
+      <KeyState>
+        <Flick>
+          <KeyEntity mozc:sourceId="209"
+              mozc:keyCode="@integer/uchar_hiragana_me"
+              mozc:longPressTimeoutTrigger="false"
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__me">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__me" />
+          </KeyEntity>
+        </Flick>
+      </KeyState>
+    </Key>
     <Key mozc:keyBackground="qwertyFunction"
-         mozc:keyWidth="8%p" mozc:keyEdgeFlags="right" mozc:isRepeatable="true">
+        mozc:keyWidth="9.09%p" mozc:keyEdgeFlags="right" mozc:isRepeatable="true">
       <KeyState mozc:contentDescription="@string/cd_key_uchar_backspace">
         <Flick>
           <KeyEntity mozc:sourceId="50"
-                     mozc:keyCode="@integer/key_backspace"
-                     mozc:keyIcon="@raw/qwerty__function__delete__icon"
-                     mozc:iconWidth="@dimen/unlimited"
-                     mozc:iconHeight="@dimen/default_function_icon_height" />
+              mozc:keyCode="@integer/key_backspace"
+              mozc:keyIcon="@raw/qwerty__function__delete__icon"
+              mozc:iconWidth="@dimen/unlimited"
+              mozc:iconHeight="@dimen/default_function_icon_height" />
         </Flick>
       </KeyState>
     </Key>
@@ -668,44 +747,31 @@
         </Flick>
       </KeyState>
     </Key>
-    <Key
-        mozc:keyHorizontalLayoutWeight="1">
-      <KeyState>
+    <Spacer mozc:keyWidth="2%" mozc:stick="right" mozc:keyBackground="transparent" />
+    <Key mozc:keyBackground="qwertyFunction"
+        mozc:keyWidth="11%p" mozc:keyEdgeFlags="left" mozc:isModifier="true"
+        mozc:defaultIconWidth="@dimen/unlimited"
+        mozc:defaultIconHeight="@dimen/default_function_icon_height">
+      <KeyState mozc:contentDescription="@string/cd_key_shift"
+          mozc:nextMetaState="shift">
         <Flick>
-          <KeyEntity mozc:sourceId="202"
-              mozc:keyCode="@integer/uchar_hiragana_voiced_sound_mark"
-              mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__popup__voiced_mark">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__popup__voiced_mark" />
-          </KeyEntity>
+          <KeyEntity mozc:sourceId="41"
+              mozc:keyCode="@integer/key_capslock"
+              mozc:keyIcon="@raw/qwerty__shift_off" />
         </Flick>
       </KeyState>
-      <KeyState
-          mozc:metaState="shift">
+      <KeyState mozc:contentDescription="@string/cd_key_capslock"
+          mozc:metaState="shift" mozc:nextRemovedMetaStates="shift">
         <Flick>
-          <KeyEntity mozc:sourceId="212"
-              mozc:keyCode="@integer/uchar_hiragana_ro"
-              mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/qwerty__kana__keyicon__ro">
-            <PopUp mozc:popUpIcon="@raw/qwerty__popup__ro" />
-          </KeyEntity>
+          <KeyEntity mozc:sourceId="141"
+              mozc:keyCode="@integer/key_capslock"
+              mozc:keyIcon="@raw/qwerty__shift_on" />
         </Flick>
       </KeyState>
     </Key>
-    <Key
-        mozc:keyHorizontalLayoutWeight="1">
+    <Spacer mozc:keyWidth="2%" mozc:stick="right" mozc:keyBackground="transparent" />
+    <Key>
       <KeyState>
-        <Flick>
-          <KeyEntity mozc:sourceId="203"
-              mozc:keyCode="@integer/uchar_hiragana_semi_voiced_sound_mark"
-              mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__popup__semi_voiced_mark">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__popup__semi_voiced_mark" />
-          </KeyEntity>
-        </Flick>
-      </KeyState>
-      <KeyState
-          mozc:metaState="shift">
         <Flick>
           <KeyEntity mozc:sourceId="213"
               mozc:keyCode="@integer/uchar_hiragana_mu"
@@ -764,60 +830,38 @@
         </Flick>
       </KeyState>
     </Key>
-    <Key>
-      <KeyState>
+    <Key mozc:keyBackground="qwertyFunction"
+        mozc:keyWidth="11%p" mozc:keyEdgeFlags="left" mozc:isModifier="true"
+        mozc:defaultIconWidth="@dimen/unlimited"
+        mozc:defaultIconHeight="@dimen/default_function_icon_height">
+      <KeyState mozc:contentDescription="@string/cd_key_shift"
+          mozc:nextMetaState="shift">
         <Flick>
-          <KeyEntity mozc:sourceId="207"
-              mozc:keyCode="@integer/uchar_hiragana_ne"
-              mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/qwerty__kana__keyicon__ne">
-            <PopUp mozc:popUpIcon="@raw/qwerty__popup__ne" />
-          </KeyEntity>
+          <KeyEntity mozc:sourceId="42"
+              mozc:keyCode="@integer/key_capslock"
+              mozc:keyIcon="@raw/qwerty__shift_off" />
         </Flick>
       </KeyState>
-      <KeyState
-          mozc:metaState="shift">
+      <KeyState mozc:contentDescription="@string/cd_key_capslock"
+          mozc:metaState="shift" mozc:nextRemovedMetaStates="shift">
         <Flick>
-          <KeyEntity mozc:sourceId="217"
-              mozc:keyCode="@integer/uchar_hiragana_ho"
-              mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/qwerty__kana__keyicon__ho">
-            <PopUp mozc:popUpIcon="@raw/qwerty__popup__ho" />
-          </KeyEntity>
-        </Flick>
-      </KeyState>
-    </Key>
-    <Key>
-      <KeyState>
-        <Flick>
-          <KeyEntity mozc:sourceId="208"
-              mozc:keyCode="@integer/uchar_hiragana_ru"
-              mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/qwerty__kana__keyicon__ru">
-            <PopUp mozc:popUpIcon="@raw/qwerty__popup__ru" />
-          </KeyEntity>
-        </Flick>
-      </KeyState>
-      <KeyState
-          mozc:metaState="shift">
-        <Flick>
-          <KeyEntity mozc:sourceId="218"
-              mozc:keyCode="@integer/uchar_hiragana_he"
-              mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/qwerty__kana__keyicon__he">
-            <PopUp mozc:popUpIcon="@raw/qwerty__popup__he" />
-          </KeyEntity>
+          <KeyEntity mozc:sourceId="142"
+              mozc:keyCode="@integer/key_capslock"
+              mozc:keyIcon="@raw/qwerty__shift_on" />
         </Flick>
       </KeyState>
     </Key>
+    <Spacer mozc:keyWidth="2%" mozc:stick="right" mozc:keyBackground="transparent" />
     <Key>
       <KeyState>
         <Flick>
-          <KeyEntity mozc:sourceId="209"
-              mozc:keyCode="@integer/uchar_hiragana_me"
+          <KeyEntity mozc:sourceId="212"
+              mozc:keyCode="@integer/uchar_hiragana_ro"
+              mozc:longPressKeyCode="@integer/uchar_hyphen_minus"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/qwerty__kana__keyicon__me">
-            <PopUp mozc:popUpIcon="@raw/qwerty__popup__me" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__ro">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__ro"
+                mozc:popUpLongPressIcon="@raw/optional__qwerty__keyicon__minus_sign" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -833,6 +877,7 @@
         </Flick>
       </KeyState>
     </Key>
+    <Spacer mozc:keyWidth="2%" mozc:stick="right" mozc:keyBackground="transparent" />
     <Key mozc:keyBackground="qwertyFunctionWithThreeDots"
          mozc:keyWidth="13%p" mozc:keyEdgeFlags="right"
          mozc:defaultIconWidth="@dimen/keyboard_enter_width"
