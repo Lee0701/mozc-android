@@ -49,8 +49,8 @@
           <KeyEntity mozc:sourceId="1"
               mozc:keyCode="@integer/uchar_hiragana_nu"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__nu">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__nu" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__nu">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__nu" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -61,8 +61,8 @@
           <KeyEntity mozc:sourceId="2"
               mozc:keyCode="@integer/uchar_hiragana_hu"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__fu">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__fu" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__fu">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__fu" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -73,8 +73,8 @@
           <KeyEntity mozc:sourceId="3"
               mozc:keyCode="@integer/uchar_hiragana_a"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__a">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__a" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__a">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__a" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -84,8 +84,8 @@
           <KeyEntity mozc:sourceId="103"
               mozc:keyCode="@integer/uchar_hiragana_xa"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__a">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__a" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__xa">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__xa" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -96,8 +96,8 @@
           <KeyEntity mozc:sourceId="4"
               mozc:keyCode="@integer/uchar_hiragana_u"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__u">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__u" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__u">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__u" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -107,8 +107,8 @@
           <KeyEntity mozc:sourceId="104"
               mozc:keyCode="@integer/uchar_hiragana_xu"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__u">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__u" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__xu">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__xu" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -119,8 +119,8 @@
           <KeyEntity mozc:sourceId="5"
               mozc:keyCode="@integer/uchar_hiragana_e"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__e">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__e" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__e">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__e" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -130,8 +130,8 @@
           <KeyEntity mozc:sourceId="105"
               mozc:keyCode="@integer/uchar_hiragana_xe"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__xe">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__xe" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__xe">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__xe" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -142,8 +142,8 @@
           <KeyEntity mozc:sourceId="6"
               mozc:keyCode="@integer/uchar_hiragana_o"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__o">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__o" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__o">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__o" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -153,8 +153,8 @@
           <KeyEntity mozc:sourceId="106"
               mozc:keyCode="@integer/uchar_hiragana_xo"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__o">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__o" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__xo">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__xo" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -165,8 +165,8 @@
           <KeyEntity mozc:sourceId="7"
               mozc:keyCode="@integer/uchar_hiragana_ya"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ya">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ya" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__ya">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__ya" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -176,8 +176,8 @@
           <KeyEntity mozc:sourceId="107"
               mozc:keyCode="@integer/uchar_hiragana_xya"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__xya">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__xya" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__xya">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__xya" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -188,8 +188,8 @@
           <KeyEntity mozc:sourceId="8"
               mozc:keyCode="@integer/uchar_hiragana_yu"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__yu">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__yu" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__yu">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__yu" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -199,8 +199,8 @@
           <KeyEntity mozc:sourceId="108"
               mozc:keyCode="@integer/uchar_hiragana_xyu"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__xyu">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__xyu" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__xyu">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__xyu" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -211,8 +211,8 @@
           <KeyEntity mozc:sourceId="9"
               mozc:keyCode="@integer/uchar_hiragana_yo"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__yo">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__yo" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__yo">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__yo" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -222,8 +222,8 @@
           <KeyEntity mozc:sourceId="109"
               mozc:keyCode="@integer/uchar_hiragana_xyo"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__xyo">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__xyo" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__xyo">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__xyo" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -234,8 +234,8 @@
           <KeyEntity mozc:sourceId="100"
               mozc:keyCode="@integer/uchar_hiragana_wa"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__wa">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__wa" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__wa">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__wa" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -245,8 +245,8 @@
           <KeyEntity mozc:sourceId="120"
               mozc:keyCode="@integer/uchar_hiragana_wo"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__wo">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__wo" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__wo">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__wo" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -259,8 +259,8 @@
           <KeyEntity mozc:sourceId="11"
               mozc:keyCode="@integer/uchar_hiragana_ta"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ta">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ta" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__ta">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__ta" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -271,8 +271,8 @@
           <KeyEntity mozc:sourceId="12"
               mozc:keyCode="@integer/uchar_hiragana_te"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__te">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__te" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__te">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__te" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -283,8 +283,8 @@
           <KeyEntity mozc:sourceId="13"
               mozc:keyCode="@integer/uchar_hiragana_i"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__i">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__i" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__i">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__i" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -294,8 +294,8 @@
           <KeyEntity mozc:sourceId="113"
               mozc:keyCode="@integer/uchar_hiragana_xi"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__xi">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__xi" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__xi">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__xi" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -306,8 +306,8 @@
           <KeyEntity mozc:sourceId="14"
               mozc:keyCode="@integer/uchar_hiragana_su"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__su">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__su" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__su">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__su" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -318,8 +318,8 @@
           <KeyEntity mozc:sourceId="15"
               mozc:keyCode="@integer/uchar_hiragana_ka"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ka">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ka" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__ka">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__ka" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -330,8 +330,8 @@
           <KeyEntity mozc:sourceId="16"
               mozc:keyCode="@integer/uchar_hiragana_nn"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__nn">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__nn" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__nn">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__nn" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -342,8 +342,8 @@
           <KeyEntity mozc:sourceId="17"
               mozc:keyCode="@integer/uchar_hiragana_na"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__na">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__na" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__na">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__na" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -354,8 +354,8 @@
           <KeyEntity mozc:sourceId="18"
               mozc:keyCode="@integer/uchar_hiragana_ni"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ni">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ni" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__ni">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__ni" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -367,8 +367,8 @@
               mozc:keyCode="@integer/uchar_hiragana_ra"
               mozc:longPressKeyCode="@integer/uchar_hiragana_voiced_sound_mark"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ra">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ra"
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__ra">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__ra"
                 mozc:popUpLongPressIcon="@raw/twelvekeys__kana__popup__voiced_mark" />
           </KeyEntity>
         </Flick>
@@ -381,8 +381,8 @@
               mozc:keyCode="@integer/uchar_hiragana_se"
               mozc:longPressKeyCode="@integer/uchar_hiragana_semi_voiced_sound_mark"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__se">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__se"
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__se">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__se"
                 mozc:popUpLongPressIcon="@raw/twelvekeys__kana__popup__semi_voiced_mark" />
           </KeyEntity>
         </Flick>
@@ -396,8 +396,8 @@
           <KeyEntity mozc:sourceId="21"
               mozc:keyCode="@integer/uchar_hiragana_ti"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__chi">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__chi" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__chi">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__chi" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -408,8 +408,8 @@
           <KeyEntity mozc:sourceId="22"
               mozc:keyCode="@integer/uchar_hiragana_to"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__to">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__to" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__to">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__to" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -420,8 +420,8 @@
           <KeyEntity mozc:sourceId="23"
               mozc:keyCode="@integer/uchar_hiragana_si"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__shi">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__shi" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__shi">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__shi" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -432,8 +432,8 @@
           <KeyEntity mozc:sourceId="24"
               mozc:keyCode="@integer/uchar_hiragana_ha"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ha">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ha" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__ha">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__ha" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -444,8 +444,8 @@
           <KeyEntity mozc:sourceId="25"
               mozc:keyCode="@integer/uchar_hiragana_ki"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ki">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ki" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__ki">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__ki" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -456,8 +456,8 @@
           <KeyEntity mozc:sourceId="26"
               mozc:keyCode="@integer/uchar_hiragana_ku"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ku">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ku" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__ku">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__ku" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -468,8 +468,8 @@
           <KeyEntity mozc:sourceId="27"
               mozc:keyCode="@integer/uchar_hiragana_ma"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ma">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ma" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__ma">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__ma" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -480,8 +480,8 @@
           <KeyEntity mozc:sourceId="28"
               mozc:keyCode="@integer/uchar_hiragana_no"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__no">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__no" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__no">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__no" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -492,8 +492,8 @@
           <KeyEntity mozc:sourceId="29"
               mozc:keyCode="@integer/uchar_hiragana_ri"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ri">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ri" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__ri">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__ri" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -504,8 +504,8 @@
           <KeyEntity mozc:sourceId="30"
               mozc:keyCode="@integer/uchar_hiragana_re"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__re">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__re" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__re">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__re" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -540,8 +540,8 @@
           <KeyEntity mozc:sourceId="52"
               mozc:keyCode="@integer/uchar_hiragana_tu"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__tsu">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__tsu" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__tsu">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__tsu" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -551,8 +551,8 @@
           <KeyEntity mozc:sourceId="152"
               mozc:keyCode="@integer/uchar_hiragana_xtu"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__tsu">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__tsu" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__xtsu">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__xtsu" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -563,8 +563,8 @@
           <KeyEntity mozc:sourceId="53"
               mozc:keyCode="@integer/uchar_hiragana_sa"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__sa">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__sa" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__sa">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__sa" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -575,8 +575,8 @@
           <KeyEntity mozc:sourceId="54"
               mozc:keyCode="@integer/uchar_hiragana_so"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__so">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__so" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__so">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__so" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -587,8 +587,8 @@
           <KeyEntity mozc:sourceId="55"
               mozc:keyCode="@integer/uchar_hiragana_hi"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__hi">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__hi" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__hi">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__hi" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -599,8 +599,8 @@
           <KeyEntity mozc:sourceId="56"
               mozc:keyCode="@integer/uchar_hiragana_ko"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ko">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ko" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__ko">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__ko" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -611,8 +611,8 @@
           <KeyEntity mozc:sourceId="57"
               mozc:keyCode="@integer/uchar_hiragana_mi"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__mi">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__mi" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__mi">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__mi" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -623,8 +623,8 @@
           <KeyEntity mozc:sourceId="58"
               mozc:keyCode="@integer/uchar_hiragana_mo"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__mo">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__mo" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__mo">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__mo" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -635,7 +635,7 @@
           <KeyEntity mozc:sourceId="59"
               mozc:keyCode="@integer/uchar_hiragana_ke"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ke">
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__ke">
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -686,8 +686,8 @@
           <KeyEntity mozc:sourceId="212"
               mozc:keyCode="@integer/uchar_hiragana_ro"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ro">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ro" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__ro">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__ro" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -710,8 +710,8 @@
           <KeyEntity mozc:sourceId="213"
               mozc:keyCode="@integer/uchar_hiragana_mu"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__mu">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__mu" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__mu">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__mu" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -770,8 +770,8 @@
           <KeyEntity mozc:sourceId="207"
               mozc:keyCode="@integer/uchar_hiragana_ne"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ne">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ne" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__ne">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__ne" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -781,8 +781,8 @@
           <KeyEntity mozc:sourceId="217"
               mozc:keyCode="@integer/uchar_hiragana_ho"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ho">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ho" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__ho">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__ho" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -793,8 +793,8 @@
           <KeyEntity mozc:sourceId="208"
               mozc:keyCode="@integer/uchar_hiragana_ru"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__ru">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__ru" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__ru">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__ru" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -804,8 +804,8 @@
           <KeyEntity mozc:sourceId="218"
               mozc:keyCode="@integer/uchar_hiragana_he"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__he">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__he" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__he">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__he" />
           </KeyEntity>
         </Flick>
       </KeyState>
@@ -816,8 +816,8 @@
           <KeyEntity mozc:sourceId="209"
               mozc:keyCode="@integer/uchar_hiragana_me"
               mozc:longPressTimeoutTrigger="false"
-              mozc:keyIcon="@raw/twelvekeys__kana__keyicon__me">
-            <PopUp mozc:popUpIcon="@raw/twelvekeys__kana__keyicon__me" />
+              mozc:keyIcon="@raw/qwerty__kana__keyicon__me">
+            <PopUp mozc:popUpIcon="@raw/qwerty__popup__me" />
           </KeyEntity>
         </Flick>
       </KeyState>

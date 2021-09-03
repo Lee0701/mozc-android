@@ -207,6 +207,82 @@ _QWERTY_KEYICON_KEY_DEFINITIONS = [
     {'name': 'fullwidth_solidus', 'char': '/'},
     ]
 
+_QWERTY_KANA_KEYICON_KEY_DEFINITIONS = [
+    {'name': 'exclamation_mark', 'char': '！'},
+    {'name': 'ideographic_period', 'char': '。'},
+    {'name': 'left_parenthesis', 'char': '('},
+    {'name': 'prolonged_sound_mark', 'char': 'ー'},
+    {'name': 'question_mark', 'char': '？'},
+    {'name': 'right_parenthesis', 'char': ')'},
+    {'name': 'horizontal_ellipsis', 'char': '…'},
+    {'name': 'wave_dash', 'char': '〜'},
+
+    {'name': 'a', 'char': 'あ'},
+    {'name': 'i', 'char': 'い'},
+    {'name': 'u', 'char': 'う'},
+    {'name': 'e', 'char': 'え'},
+    {'name': 'o', 'char': 'お'},
+    {'name': 'xa', 'char': 'ぁ'},
+    {'name': 'xi', 'char': 'ぃ'},
+    {'name': 'xu', 'char': 'ぅ'},
+    {'name': 'xe', 'char': 'ぇ'},
+    {'name': 'xo', 'char': 'ぉ'},
+
+    {'name': 'ka', 'char': 'か'},
+    {'name': 'ki', 'char': 'き'},
+    {'name': 'ku', 'char': 'く'},
+    {'name': 'ke', 'char': 'け'},
+    {'name': 'ko', 'char': 'こ'},
+
+    {'name': 'sa', 'char': 'さ'},
+    {'name': 'shi', 'char': 'し'},
+    {'name': 'su', 'char': 'す'},
+    {'name': 'se', 'char': 'せ'},
+    {'name': 'so', 'char': 'そ'},
+
+    {'name': 'ta', 'char': 'た'},
+    {'name': 'chi', 'char': 'ち'},
+    {'name': 'tsu', 'char': 'つ'},
+    {'name': 'te', 'char': 'て'},
+    {'name': 'to', 'char': 'と'},
+    {'name': 'xtsu', 'char': 'っ'},
+
+    {'name': 'na', 'char': 'な'},
+    {'name': 'ni', 'char': 'に'},
+    {'name': 'nu', 'char': 'ぬ'},
+    {'name': 'ne', 'char': 'ね'},
+    {'name': 'no', 'char': 'の'},
+
+    {'name': 'ha', 'char': 'は'},
+    {'name': 'hi', 'char': 'ひ'},
+    {'name': 'fu', 'char': 'ふ'},
+    {'name': 'he', 'char': 'へ'},
+    {'name': 'ho', 'char': 'ほ'},
+
+    {'name': 'ma', 'char': 'ま'},
+    {'name': 'mi', 'char': 'み'},
+    {'name': 'mu', 'char': 'む'},
+    {'name': 'me', 'char': 'め'},
+    {'name': 'mo', 'char': 'も'},
+
+    {'name': 'ya', 'char': 'や'},
+    {'name': 'yu', 'char': 'ゆ'},
+    {'name': 'yo', 'char': 'よ'},
+    {'name': 'xya', 'char': 'ゃ'},
+    {'name': 'xyu', 'char': 'ゅ'},
+    {'name': 'xyo', 'char': 'ょ'},
+
+    {'name': 'ra', 'char': 'ら'},
+    {'name': 'ri', 'char': 'り'},
+    {'name': 'ru', 'char': 'る'},
+    {'name': 're', 'char': 'れ'},
+    {'name': 'ro', 'char': 'ろ'},
+
+    {'name': 'wa', 'char': 'わ'},
+    {'name': 'wo', 'char': 'を'},
+    {'name': 'nn', 'char': 'ん'},
+    ]
+
 _TWELVEKEYS_ALPHABET_KEY_DEFINITIONS = [
     # 01, 11 and 12 have spaces among their characters.
     # Without them shown characters are too close.
@@ -631,6 +707,18 @@ def Transform(input_dir, output_dir):
       'twelvekeys__popup',
       output_dir,
       _TWELVEKEYS_KANA_KEYICON_KEY_DEFINITIONS)
+
+  WriteKeys(
+      os.path.join(input_dir, 'qwerty__keyicon__template.svg'),
+      'qwerty__kana__keyicon',
+      output_dir,
+      _QWERTY_KANA_KEYICON_KEY_DEFINITIONS)
+
+  WriteKeys(
+      os.path.join(input_dir, 'qwerty__popup__template.svg'),
+      'qwerty__popup',
+      output_dir,
+      _QWERTY_KANA_KEYICON_KEY_DEFINITIONS)
 
   ExpandAndWriteSupportKeys(
       os.path.join(input_dir, 'twelvekeys__kana__support__template.svg'),
