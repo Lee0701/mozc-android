@@ -1,3 +1,4 @@
+jniLibs/
 *.iml
 .gradle
 /local.properties
