@@ -53,6 +53,7 @@ class KeyEventMapperFactory {
   }
 
   public static final KeyEventMapper DEFAULT_KEYBOARD_MAPPER = new DefaultKeyboardMapper();
+  public static final KeyEventMapper GARAKE_KEYBOARD_MAPPER = new GarakeKeyboardMapper(false, true);
   public static final KeyEventMapper JAPANESE_KEYBOARD_MAPPER = new JapaneseKeyboardMapper();
 
   /**
@@ -64,6 +65,41 @@ class KeyEventMapperFactory {
     public void applyMapping(CompactKeyEvent keyEvent) {
       keyEvent.setKeyCode(doKeyLayoutMappingForOldAndroids(keyEvent.getKeyCode(),
                                                            keyEvent.getScanCode()));
+    }
+  }
+
+  private static class GarakeKeyboardMapper implements KeyEventMapper {
+    private final boolean numbersRow;
+    private final boolean numbersKeypad;
+
+    public GarakeKeyboardMapper(boolean numbersRow, boolean numbersKeypad) {
+      this.numbersRow = numbersRow;
+      this.numbersKeypad = numbersKeypad;
+    }
+
+    @Override
+    public void applyMapping(CompactKeyEvent keyEvent) {
+      keyEvent.setKeyCode(doKeyLayoutMappingForOldAndroids(keyEvent.getKeyCode(),
+              keyEvent.getScanCode()));
+      int keyCode = keyEvent.getKeyCode();
+      if(numbersRow) {
+        if(keyCode >= KeyEvent.KEYCODE_0 && keyCode <= KeyEvent.KEYCODE_9) {
+          keyEvent.setUnicodeCharacter(keyCode - KeyEvent.KEYCODE_0 + '0');
+        } else if(keyCode == KeyEvent.KEYCODE_MINUS) {
+          keyEvent.setUnicodeCharacter('*');
+        } else if(keyCode == KeyEvent.KEYCODE_EQUALS) {
+          keyEvent.setUnicodeCharacter('#');
+        }
+      }
+      if(numbersKeypad) {
+        if(keyCode >= KeyEvent.KEYCODE_NUMPAD_0 && keyCode <= KeyEvent.KEYCODE_NUMPAD_9) {
+          keyEvent.setUnicodeCharacter(keyCode - KeyEvent.KEYCODE_NUMPAD_0 + '0');
+        } else if(keyCode == KeyEvent.KEYCODE_STAR) {
+          keyEvent.setUnicodeCharacter('*');
+        } else if(keyCode == KeyEvent.KEYCODE_POUND) {
+          keyEvent.setUnicodeCharacter('#');
+        }
+      }
     }
   }
 

@@ -93,6 +93,14 @@ public enum HardwareKeyboardSpecification {
           KeyboardSpecification.HARDWARE_QWERTY_ALPHABET),
 
   /**
+   * 12-key phone keypad map.
+   */
+  GARAKE(HardwareKeyMap.GARAKE,
+          KeyEventMapperFactory.GARAKE_KEYBOARD_MAPPER,
+          KeyboardSpecification.TWELVE_KEY_TOGGLE_KANA,
+          KeyboardSpecification.TWELVE_KEY_TOGGLE_ALPHABET),
+
+  /**
    * Represents Japanese 109 Keyboard
    */
   JAPANESE109A(HardwareKeyMap.JAPANESE109A,

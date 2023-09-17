@@ -88,6 +88,7 @@ public class ClientSidePreference {
    */
   public enum HardwareKeyMap {
     DEFAULT,
+    GARAKE,
     JAPANESE109A,
   }
 

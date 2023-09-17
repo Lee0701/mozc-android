@@ -55,7 +55,7 @@ public class HardwareKeyboard {
   }
 
   private HardwareKeyboardSpecification hardwareKeyboardSpecification =
-      HardwareKeyboardSpecification.JAPANESE109A;
+      HardwareKeyboardSpecification.GARAKE;
 
   private CompositionMode compositionMode = CompositionMode.HIRAGANA;
 
@@ -122,7 +122,7 @@ public class HardwareKeyboard {
       MozcLog.w("Invalid HardwareKeyMap: " + hardwareKeyMap);
       return;
     }
-    hardwareKeyboardSpecification = nextSpecification.get();
+//    hardwareKeyboardSpecification = nextSpecification.get();
     setCompositionMode(CompositionSwitchMode.KANA);
   }
 
