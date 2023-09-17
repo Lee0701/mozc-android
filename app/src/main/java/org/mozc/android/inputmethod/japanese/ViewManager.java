@@ -1048,6 +1048,10 @@ public class ViewManager implements ViewManagerInterface {
 
   @Override
   public void onHardwareKeyEvent(KeyEvent event) {
+    if(event.getKeyCode() == KeyEvent.KEYCODE_KANA) {
+      imeSwitcher.switchToNextInputMethod(false);
+      return;
+    }
     // Maybe update the composition mode based on the event.
     // For example, zen/han key toggles the composition mode (hiragana <--> alphabet).
     CompositionMode compositionMode = hardwareKeyboard.getCompositionMode();

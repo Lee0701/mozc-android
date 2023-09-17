@@ -283,6 +283,7 @@ public enum HardwareKeyboardSpecification {
     // because KEYCODE_SPACE/TAB, which are special keys, are sent with unicode-character.
     switch(keyCode) {
       case KeyEvent.KEYCODE_SPACE:
+      case KeyEvent.KEYCODE_CONTACTS:
         builder.setSpecialKey(SpecialKey.SPACE);
         break;
       case KeyEvent.KEYCODE_FORWARD_DEL:
@@ -310,6 +311,7 @@ public enum HardwareKeyboardSpecification {
         builder.setSpecialKey(SpecialKey.TAB);
         break;
       case KeyEvent.KEYCODE_ENTER:
+      case KeyEvent.KEYCODE_DPAD_CENTER:
         builder.setSpecialKey(SpecialKey.ENTER);
         break;
       case KeyEvent.KEYCODE_DPAD_LEFT:

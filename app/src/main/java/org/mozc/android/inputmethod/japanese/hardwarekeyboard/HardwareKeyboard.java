@@ -122,6 +122,7 @@ public class HardwareKeyboard {
       MozcLog.w("Invalid HardwareKeyMap: " + hardwareKeyMap);
       return;
     }
+    // TODO: Find a proper point for injection
 //    hardwareKeyboardSpecification = nextSpecification.get();
     setCompositionMode(CompositionSwitchMode.KANA);
   }
