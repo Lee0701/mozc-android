@@ -218,7 +218,8 @@ class CandidateViewManager implements MemoryManageable {
 
   public void setAllowFloatingMode(boolean allowFloatingMode) {
     Preconditions.checkArgument(!allowFloatingMode || FloatingCandidateView.isAvailable());
-    this.allowFloatingMode = allowFloatingMode;
+//    this.allowFloatingMode = allowFloatingMode;
+    this.allowFloatingMode = false;
     updateCandiadateWindowActivation();
   }
 
