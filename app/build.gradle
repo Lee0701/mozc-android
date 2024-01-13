@@ -38,13 +38,13 @@ android {
 }
 
 dependencies {
-    implementation 'org.apache.httpcomponents:httpclient:4.5.13'
+    implementation 'org.apache.httpcomponents:httpclient:4.5.14'
     implementation 'com.google.guava:guava:32.1.2-jre'
-    implementation 'com.google.protobuf:protobuf-java:3.19.3'
-    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.8.22"
+    implementation 'com.google.protobuf:protobuf-java:3.25.2'
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib:1.9.22'
     implementation 'androidx.core:core-ktx:1.12.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
-    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'com.google.android.material:material:1.11.0'
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
