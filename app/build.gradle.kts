@@ -7,12 +7,12 @@ plugins {
 
 android {
     namespace = "org.mozc.android.inputmethod.japanese"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "org.mozc.android.inputmethod.japanese"
         minSdk = 21
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 6028152
         versionName = "2.23.2815.103-arm"
 
