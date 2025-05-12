@@ -13,6 +13,7 @@ kotlinStdlib = "2.1.20"
 material = "1.12.0"
 protobufJava = "3.25.3"
 httpclient = "4.5.14"
+jsr305 = "3.0.2"
 
 [libraries]
 appcompat = { module = "androidx.appcompat:appcompat", version.ref = "appcompat" }
@@ -27,6 +28,7 @@ kotlin-stdlib = { module = "org.jetbrains.kotlin:kotlin-stdlib", version.ref = "
 material = { module = "com.google.android.material:material", version.ref = "material" }
 protobuf-java = { module = "com.google.protobuf:protobuf-java", version.ref = "protobufJava" }
 httpclient = { group = "org.apache.httpcomponents", name = "httpclient", version.ref = "httpclient" }
+jsr305 = { group = "com.google.code.findbugs", name = "jsr305", version.ref = "jsr305" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
